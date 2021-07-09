@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  font-family:'Times New Roman', Times, serif;
+  max-height:auto;
+}
+
+.header{
+  padding: 100px;
+   font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Kard{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap; 
+}
+.card{
+  height:780px;
+  width: 320px;
+  font-size: 15px;
+  color:blue;
+  border-radius: 25px;
+ margin-top: 50px;  
+}
+.card:hover{
+  transform: scale(1.08);
+}
+.imp{
+  display: flex;
+  flex-direction: column;
+  color:darkslategray;
+  font-weight: bolder;
+  
+}
+.but{
+  display: flex;
+  justify-content:space-evenly; 
+ }
+ .topright {
+  position: absolute;
+  top:1px;
+  right: 1px;
+ 
+ } 
+   
+  
